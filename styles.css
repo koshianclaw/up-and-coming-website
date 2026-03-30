@@ -55,6 +55,7 @@ h4 { margin: 0 0 8px; font-size: 1.02rem; }
 .history-image { width:100%; border-radius:24px; border:1px solid var(--line); box-shadow: 0 16px 50px rgba(15,23,42,.10); display:block; }
 .brand-grid { grid-template-columns: repeat(3, 1fr); }
 .product-grid { grid-template-columns: repeat(3, 1fr); }
+.focus-grid .focus-card { border: 2px solid #7dd3fc; background: linear-gradient(180deg, #f0f9ff, #ffffff); }
 .app-grid { grid-template-columns: repeat(3, 1fr); }
 .catalog-grid { grid-template-columns: repeat(3, 1fr); }
 .card, .product-card, .app-card, .contact-card, .catalog-card { background: #fff; border: 1px solid var(--line); border-radius: 24px; padding: 24px; box-shadow: 0 8px 30px rgba(15, 23, 42, .04); }
