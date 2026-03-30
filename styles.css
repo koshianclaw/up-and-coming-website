@@ -71,6 +71,8 @@ h4 { margin: 0 0 8px; font-size: 1.02rem; }
 .catalog-head p { color: var(--muted); margin: 0; }
 .catalog-card { padding: 0; overflow: hidden; }
 .thumb { min-height: 180px; display: grid; place-items: center; background: linear-gradient(135deg, #dbeafe, #ecfeff); color: var(--brand-dark); font-weight: 800; letter-spacing: .08em; }
+.image-thumb { background: #ffffff; padding: 14px; }
+.image-thumb img { width: 100%; max-height: 170px; object-fit: contain; display: block; }
 .catalog-card .meta { padding: 18px 18px 22px; }
 .catalog-card.placeholder { border-style: dashed; }
 .site-footer { border-top: 1px solid var(--line); background: #fff; }
