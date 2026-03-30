@@ -55,6 +55,8 @@ h4 { margin: 0 0 8px; font-size: 1.02rem; }
 .card, .product-card, .app-card, .contact-card, .catalog-card { background: #fff; border: 1px solid var(--line); border-radius: 24px; padding: 24px; box-shadow: 0 8px 30px rgba(15, 23, 42, .04); }
 .card p, .product-card p, .app-card p, .contact-card span, .catalog-card p { color: var(--muted); line-height: 1.8; }
 .card ul { padding-left: 18px; color: #334155; line-height: 1.8; }
+.brand-card .brand-logo { min-height: 88px; display: grid; place-items: center; margin-bottom: 14px; border-radius: 18px; background: linear-gradient(135deg, #dbeafe, #ecfeff); color: var(--brand-dark); font-weight: 800; letter-spacing: .08em; }
+.inline-link { display: inline-block; margin-top: 10px; font-weight: 700; }
 .contact-grid { display: grid; grid-template-columns: 1fr .9fr; gap: 28px; align-items: start; }
 .contact-card { display: grid; gap: 16px; }
 .contact-card div { display: grid; gap: 6px; }
